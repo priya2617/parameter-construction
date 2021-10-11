@@ -1,0 +1,30 @@
+package note1;
+
+public class notebook {
+notebook(String author,int year)
+{
+System.out.println("my evening batch test");
+}
+
+notebook()
+{
+	System.out.println("dora");                     
+}
+
+void publisher()
+{
+	System.out.println("annie");
+}
+//*********************************
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+notebook sales=new notebook("harryporter",1987);
+notebook film=new notebook();
+sales.publisher();
+film.publisher();
+
+
+	}
+
+}
